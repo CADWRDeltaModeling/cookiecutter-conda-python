@@ -7,5 +7,5 @@
   "project_short_description": "Short description",
   "noarch_python": "y",
   "include_cli": "y",
-  "open_source_license": ["MIT", "BSD", "ISC", "Apache", "GNUv3", "Proprietary"]
+  "open_source_license": ["MIT"]
 }

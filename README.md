@@ -1,4 +1,4 @@
-# cookiecutter-conda-python
+# Template project 
 A [cookiecutter](https://www.github.com/audreyr/cookiecutter "cookiecutter") template for 
 conda packages using Python
 
@@ -6,9 +6,7 @@ conda packages using Python
 
  - Automatic versioning with versioneer (requires git annotated tags before it'll work)
  - Ready-made conda recipe found in conda.recipe/meta.yaml
- - Pre-configured for Appveyor, Travis CI and Circle CI (you need to activate each of these individually)
  - Coverage report hosted on Codecov.io (activated after first successful CI run, which uploads results)
- - Code analysis with codacy, setup to exclude versioneer and tests (requires activation of project at Codacy)
  - setup.cfg with flake8 opinions and pytest/pytest-cov configuration (including fixed PYTHONHASHSEED)
 
 ## Installation
@@ -19,7 +17,7 @@ Prior to installing cookiecutter-conda-python, the cookiecutter package must be 
 
 With cookiecutter installed, the cookiecutter-conda-python template can be installed with::
 
-    $ cookiecutter https://github.com/conda/cookiecutter-conda-python.git
+    $ cookiecutter https://github.com/dwr-psandhu/cookiecutter-conda-python
 
 Once cookiecutter clones the template, you will be asked a series of questions related to your project::
 
@@ -46,8 +44,4 @@ and the conda recipe necessary to build the application into a conda package.
 
 You'll still need to activate the web services you want to use - they won't be active automatically.
 
- - __Appveyor__: https://www.appveyor.com/docs/
- - __Circle CI__: https://circleci.com/docs/2.0/#setting-up-your-build-on-circleci
- - __Travis CI__: https://docs.travis-ci.com/user/getting-started/#To-get-started-with-Travis-CI
  - __Codecov__: No configuration necessary - project will be created when first successful CI run completes and uploads coverage results
- - __Codacy__: https://support.codacy.com/hc/en-us/articles/207278449-Getting-started-with-Codacy
