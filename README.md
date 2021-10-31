@@ -1,6 +1,7 @@
 # Template project 
 A [cookiecutter](https://www.github.com/audreyr/cookiecutter "cookiecutter") template for 
 conda packages using Python
+ Customized for use with my projects
 
 ## Features
 

@@ -1,3 +1,14 @@
+# jupyter notebooks temp dir
+**/.ipynb_checkpoints
+# tests data
+tests/data
+# dss files
+*.dss
+# dask workspace
+**/dask-worker-space
+# python pickled data
+**/*.pkl 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
