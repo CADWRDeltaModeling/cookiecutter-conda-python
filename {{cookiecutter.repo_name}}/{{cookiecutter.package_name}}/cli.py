@@ -17,8 +17,6 @@ def cli(args=None):
         version="{{ cookiecutter['package_name']}} %s" % __version__,
     )
 
-    args, unknown = p.parse_known_args(args)
-
     # do something with the sub commands
     sub_p = p.add_subparsers(help='sub-command help')
     # add show all sensors command
