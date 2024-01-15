@@ -1,0 +1,19 @@
+name: env_{{ cookiecutter.repo_name }}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python<=3.11
+  - pip
+  - ipykernel
+  - jupyter_bokeh
+  # add dependencies from setup.py here
+  # - pandas # ...
+  # dev dependencies
+  # - pytest
+  # - pytest-cov
+  # - black
+  # setup development environment by 
+  # conda activate env_{{ cookiecutter.repo_name }}
+  # pip install -e .
+
