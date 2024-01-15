@@ -2,7 +2,7 @@ from setuptools import setup
 import versioneer
 
 requirements = [
-    # package requirements go here
+    # package requirements go here and update environment.yml as well
 ]
 
 setup(
@@ -25,8 +25,9 @@ setup(
     install_requires=requirements,
     keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ]
 )
